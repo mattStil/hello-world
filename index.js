@@ -16,11 +16,17 @@ window.onload = function() {
             salary: 2,
             buildings: ['mine','quarry','mill'],
           },
-          researcher = {
-            name: 'researcher',
+          villageIdiot = {
+            name: 'villageIdiot',
             salary:3,
             buildings: ['lab']
-          }
+          },
+          innKeeper = {
+            name:'innKeeper',
+            salary:4,
+            buildings:['tavern']
+          },
+
         ],
         houses:1000,
         needed: 0,
@@ -136,7 +142,8 @@ window.onload = function() {
     setInterval(function() {
       countJob(worker,'worker');
       countJob(farmer,'farmer');
-      countJob(researcher,'researcher');
+      countJob(villageIdiot,'villageIdiot');
+      countJob(innKeeper,'innKeeper');
       totalPop = population.array.length;
       document.getElementById('pop').innerHTML = totalPop;
     },100);
