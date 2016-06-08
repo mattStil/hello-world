@@ -1,6 +1,45 @@
 .info {
   font-weight: bold;
+  position:relative;
 }
+
 .num {
   color:blue;
+}
+#topBorder {
+  width:98vw;
+  height:9.5vh;
+  bottom: 90vh;
+  background-color: #003B6F;
+  position:absolute;;;
+  right:1vw;
+  top:.5vh;
+}
+#bottomBorder{
+  width:88vw;
+  height:5vh;
+  top: 94vh;
+  background-color: #003B6F;
+  position:absolute;;;
+  right:6vw;
+}
+#popTable {
+  position:absolute;
+  top: 10vh;
+  border: 1px solid black;
+  left:1vw;
+}
+#addOne {
+  background-color:red;
+  width:100px;
+  top:19vh;
+  position:absolute;
+  left:1vw;
+}
+#log{
+  background-color:blue;;
+  width:100px;
+  top:22vh;
+  left:1vw;
+  position: absolute;
 }
